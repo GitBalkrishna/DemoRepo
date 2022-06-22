@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-13T12:17:44 IST" name="Default suite" finished-at="2022-04-13T12:17:45 IST" duration-ms="1166">
+    <groups>
+    </groups>
+    <test started-at="2022-04-13T12:17:44 IST" name="Default test" finished-at="2022-04-13T12:17:45 IST" duration-ms="1166">
+      <class name="storedprocedures.StoredFunctionTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:storedprocedures.StoredFunctionTest@71238fc2]" started-at="2022-04-13T12:17:44 IST" name="setup" finished-at="2022-04-13T12:17:44 IST" duration-ms="745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_storedFunctionExists()[pri:1, instance:storedprocedures.StoredFunctionTest@71238fc2]" started-at="2022-04-13T12:17:44 IST" name="test_storedFunctionExists" finished-at="2022-04-13T12:17:44 IST" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_storedFunctionExists -->
+        <test-method signature="test_CustomerLevel_with_procedure()[pri:2, instance:storedprocedures.StoredFunctionTest@71238fc2]" started-at="2022-04-13T12:17:45 IST" name="test_CustomerLevel_with_procedure" finished-at="2022-04-13T12:17:45 IST" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_CustomerLevel_with_procedure -->
+        <test-method signature="test_CustomerLevel_with_sql_statement()[pri:2, instance:storedprocedures.StoredFunctionTest@71238fc2]" started-at="2022-04-13T12:17:45 IST" name="test_CustomerLevel_with_sql_statement" finished-at="2022-04-13T12:17:45 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_CustomerLevel_with_sql_statement -->
+      </class> <!-- storedprocedures.StoredFunctionTest -->
+      <class name="storedprocedures.StoredProcedureTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:storedprocedures.StoredProcedureTest@156b88f5]" started-at="2022-04-13T12:17:45 IST" name="setup" finished-at="2022-04-13T12:17:45 IST" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_storedProceduresExists()[pri:1, instance:storedprocedures.StoredProcedureTest@156b88f5]" started-at="2022-04-13T12:17:45 IST" name="test_storedProceduresExists" finished-at="2022-04-13T12:17:45 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_storedProceduresExists -->
+        <test-method signature="test_SelectAllCustomers()[pri:2, instance:storedprocedures.StoredProcedureTest@156b88f5]" started-at="2022-04-13T12:17:45 IST" name="test_SelectAllCustomers" finished-at="2022-04-13T12:17:45 IST" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_SelectAllCustomers -->
+        <test-method signature="test_SelectAllCustomersByCity()[pri:3, instance:storedprocedures.StoredProcedureTest@156b88f5]" started-at="2022-04-13T12:17:45 IST" name="test_SelectAllCustomersByCity" finished-at="2022-04-13T12:17:45 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_SelectAllCustomersByCity -->
+        <test-method signature="test_getOrderByCust()[pri:4, instance:storedprocedures.StoredProcedureTest@156b88f5]" started-at="2022-04-13T12:17:45 IST" name="test_getOrderByCust" finished-at="2022-04-13T12:17:45 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_getOrderByCust -->
+        <test-method signature="test_getCustomerShipping()[pri:5, instance:storedprocedures.StoredProcedureTest@156b88f5]" started-at="2022-04-13T12:17:45 IST" name="test_getCustomerShipping" finished-at="2022-04-13T12:17:45 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_getCustomerShipping -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:storedprocedures.StoredProcedureTest@156b88f5]" started-at="2022-04-13T12:17:45 IST" name="tearDown" finished-at="2022-04-13T12:17:45 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- storedprocedures.StoredProcedureTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
