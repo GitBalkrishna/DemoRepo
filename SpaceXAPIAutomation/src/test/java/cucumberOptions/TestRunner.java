@@ -9,7 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(features="src/test/java/features"
 	,tags = {"@GetCapsules"}
-	,plugin = {"pretty","html:target/cucumber-reports"}
+	,plugin = {"pretty","html:target/cucumber-reports","json:target/cucumber.json"}
 	,monochrome=true,glue={"stepDefination"})
 public class TestRunner {
 			
